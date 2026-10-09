@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="assets/AGY2-Wide.jpg" alt="Google Antigravity 2.0 Banner" width="100%" style="border-radius: 12px; margin-bottom: 16px;" />
+  <img src="assets/google-antigravity.webp" alt="Google Antigravity 2.0 Banner" width="100%" style="border-radius: 12px; margin-bottom: 16px;" />
 </p>
 
 <p align="center">
-  <img src="assets/google-antigravity.webp" alt="Google Antigravity Logo" width="100" height="100" />
+  <img src="assets/antigravity-google-ai-logo.jpg" alt="Google Antigravity Logo" width="100" height="100" style="border-radius: 50%;" />
 </p>
 
 <h1 align="center">Google Antigravity 2.0</h1>
