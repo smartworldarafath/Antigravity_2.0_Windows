@@ -1,5 +1,9 @@
 # Git Ignore for Antigravity 2.0 Repository
-# Large binaries exceeding GitHub 100MB limit
+#
+# Large packaged binaries under windows_application_files/ ARE tracked
+# intentionally, via Git LFS (see .gitattributes). The old blanket
+# ignores below are therefore negated for that directory.
+
 *.exe
 *.dll
 *.pak
@@ -16,3 +20,10 @@ dist/node_modules/
 # OS specific files
 .DS_Store
 Thumbs.db
+
+# --- Negations: keep the packaged Windows payload tracked ---
+!windows_application_files/
+!windows_application_files/**
+!windows_application_files/**/node_modules/
+!windows_application_files/**/node_modules/**
+
