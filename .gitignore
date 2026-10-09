@@ -1,0 +1,18 @@
+# Git Ignore for Antigravity 2.0 Repository
+# Large binaries exceeding GitHub 100MB limit
+*.exe
+*.dll
+*.pak
+*.bin
+*.dat
+*.asar
+*.zip
+*.7z
+
+# Dependencies
+node_modules/
+dist/node_modules/
+
+# OS specific files
+.DS_Store
+Thumbs.db
