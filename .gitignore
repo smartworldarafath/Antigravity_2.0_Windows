@@ -1,0 +1,32 @@
+# Git Ignore for Antigravity 2.0 Repository
+
+# Binaries and native executables
+*.exe
+*.dll
+*.pak
+*.bin
+*.dat
+*.asar
+*.zip
+*.7z
+
+# Windows application packages
+windows_application_files/
+windows_application_files_backup/
+
+# Node dependencies and build output
+node_modules/
+dist/node_modules/
+
+# Secrets and environment variables
+.env
+.env.*
+*.pem
+*.key
+*.cert
+*.pfx
+
+# OS specific files
+.DS_Store
+Thumbs.db
+Desktop.ini
